@@ -3,7 +3,7 @@
 <html lang="en">
 <head><meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>data_science_milestone_1</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>data_science_milestone_1 (1)</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <style type="text/css">
     pre { line-height: 125%; }
 td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
@@ -7844,7 +7844,7 @@ We are planning to meet on Zoom or in-person 2 times a week in order to complete
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p><strong>ETL</strong></p>
-<p>We loaded a single .csv file from this <a href="https://www.kaggle.com/datasets/joebeachcapital/30000-spotify-songs">Kaggle Dataset</a> containing over 30,000 Spotify songs. The original dataset includes 23 columns of track metadata and audio features from the Spotify API — such as danceability, energy, tempo, valence, and more. We trimmed the data down to 6 key columns: track_name, track_artist, track_popularity, playlist_genre, duration_ms, and track_album_release_date. We then converted duration_ms to a new duration_sec column and extracted release_year from the album release date, dropping the original duration_ms and track_album_release_date columns afterward. Any rows with missing release years, track names, or artists were removed, and release_year was cast to an integer. Any exact rows were also dropped. The final tidied dataset has a shape of (30,942 × 6) with zero missing values.</p>
+<p>We loaded a single .csv file from this <a href="https://www.kaggle.com/datasets/joebeachcapital/30000-spotify-songs">Kaggle Dataset</a> containing over 30,000 Spotify songs. The original dataset includes 23 columns of track metadata and audio features from the Spotify API — such as danceability, energy, tempo, valence, and more. We trimmed the data down to 6 key columns: track_name, track_artist, track_popularity, playlist_genre, duration_ms, and track_album_release_date. We then converted duration_ms to a new duration_sec column and extracted release_year from the album release date, dropping the original duration_ms and track_album_release_date columns afterward. Any rows with missing release years, track names, or artists were removed, and release_year was cast to an integer. Any exact rows were also dropped. The final tidied dataset has a shape of (28,622 × 6) with zero missing values.</p>
 </div>
 </div>
 </div>
